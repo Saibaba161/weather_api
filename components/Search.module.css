@@ -1,0 +1,17 @@
+.search {
+  height: 40px;
+  font-size: 18px;
+  font-family: "Varela Round", poppins;
+  color: #303030;
+  text-align: right;
+  padding: 0 10px;
+  border: 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .search {
+    width: 100%;
+    text-align: center;
+  }
+}

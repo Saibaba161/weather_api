@@ -36,7 +36,7 @@ export const App = () => {
   const changeSystem = () =>
     unitSystem = setUnitSystem("metric");
 
-    return weatherData && !false ? (
+    return weatherData && !weatherData.message() ? (
       <div className={styles.wrapper}>
         <MainCard
           city={weatherData.name}

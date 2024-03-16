@@ -16,6 +16,8 @@ This weather app is built using React and a weather API.
 
 6) Finally, in the terminal, run the command "npm run dev"
 
+7) The application will directly run on port 3000. If the application is not opened directly, go to your browser and open `http://localhost:3000`
+
 ## Features
 
 Using this application, the user can easily know the information about a particular place just by typing the city's name in the search bar.

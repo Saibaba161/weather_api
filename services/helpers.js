@@ -1,7 +1,5 @@
 import {
   unixToLocalTime,
-  kmToMiles,
-  mpsToMph,
   timeTo12HourFormat,
 } from "./converters";
 

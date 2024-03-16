@@ -36,7 +36,7 @@ export const App = () => {
   const changeSystem = () =>
     unitSystem = setUnitSystem("metric");
 
-    return weatherData && !weatherData.message() ? (
+    return weatherData && !weatherData.message ? (
       <div className={styles.wrapper}>
         <MainCard
           city={weatherData.name}
@@ -67,7 +67,7 @@ export const App = () => {
           <Units onClick={changeSystem} unitSystem={unitSystem} />
         </ContentBox>
       </div>
-  ) : weatherData && weatherData.message ? (
+  ) : weatherData && !weatherData.message ? (
     <ErrorScreen errorMessage="City not found, try again!">
       <Search
         onFocus={(e) => (e.target.value = "")}
